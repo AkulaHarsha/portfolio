@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/ab7145b68d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="harsha1.png" class="logo" />
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onClick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onClick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Frontend Web Developer</p>
+                <h1>Hi, I'm
+                    <span>Akula.HarshaVardhan<br />RaghavaKumar</span>from Vissannapeta.
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="me.jpg" />
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Hi, my name is <strong>Akula.HarshaVardhanRaghavaKumar</strong>. I have completed FrontEND by
+                        watching sessions on a YouTube channel. Here, I have developed a portfolio website using HTML,
+                        CSS, and JavaScript. I have also learned
+                        frontend frameworks like React.js and know the MongoDB and Mysql Databases. I have worked on
+                        projects such as a calculator app,and weather app. You can find my projects below. Take a look
+                        at them once. Thank you.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">
+                            Skills
+                        </p>
+                        <p class="tab-links" onclick="openTab('experience')">
+                            Experience
+                        </p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>PRGRAMMING</span><br />C,Java,Javascript,Python</li>
+                            <li>
+                                <span>FRONT-END</span><br />html,css,javascript,react.js
+                            </li>
+                            <li>
+                                <span>DATABASES</span><br /> my sql,mongodb
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>Portfolio</span><br />i have made portfolio by using html,css,js
+                            </li>
+                            <li>
+                                <span> Book Search APP</span><br />Application done by using react.js
+                            </li>
+
+                            <li><span>wheather App</span><br />It is by using react.js</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2016-2017</span><br />SSC, Sri Srinivasa [E.M]high school, score:9.2 </li>
+                            <li><span>2018-2020</span><br />Intermediate, Sri Srinivasa jr college, score:7.84 </li>
+                            <li><span>2020-2024</span><br />B.Tech, Sri Sarathi institute of Engineering and Technology
+                                nuzvid, score:7.23 </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="my-skills">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h1>Programming Languages</h1>
+                    <p>
+                        Acually, I am a fresher and i dont have any experience.I have basic knowledge on different
+                        Programming Knowledge like C,C++,PYTHON,JAVA.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h1>Fontend development</h1>
+                    <p>
+                        Acually, I am a fresher and i dont have any experience.I have basic knowledge on the
+                        HTML,CSS,JS,AND REACTJS.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-node-js"></i>
+                    <h1>Django</h1>
+                    <p>
+                        Acually, I am a fresher and i dont have any experience.I have basic knowledge on Django Python
+                        Framework.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+
+                <div class="work"><img src="soon.jpg" />
+                    <div class="layer">
+                        <h3>projects-page</h3>
+                        <p>I had done some mini projects on html,css,js and react.js</p><a
+                            href="https://project-apge-12.netlify.app/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>harshasrsr84@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9390284442</p>
+                    <div class="social-icons"><a
+                            href="https://www.facebook.com/profile.php?id=61550007967582&mibextid=ZbWKwL"><i
+                                class="fa-brands fa-facebook"></i></a><a href="http://bit.ly/3TLLjS7"><i
+                                class="fa-brands fa-square-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/harsha.naidu_akula/"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="http://www.linkedin.com/in/Akula-Harshavardhan-Raghava-Kumar-8147202b2"><i
+                                class=" fa-brands fa-linkedin "></i>
+                        </a>
+                    </div>
+
+
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required />
+                        <input type="email" name="Email" placeholder="Your Email" required />
+                        <textarea name="Message" rows="5" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function openTab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var vamsi = document.getElementById("sidemenu");
+
+        function openMenu() {
+            vamsi.style.right = "0";
+        }
+
+        function closeMenu() {
+            vamsi.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
